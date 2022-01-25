@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Basic Language of the web</title>
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -20,7 +21,7 @@
       <header>
         <h1>📘 The Code Magazine</h1>
         <p>Posted by Laura Jones on Monday, June 21st 2027</p>
-        <img src="post-img.jpg" alt="post image" width="500" height="200" />
+        <img src="img/post-img.jpg" alt="post image" width="500" height="200" />
       </header>
       <h2>The Basic Language of the Web: HTML</h2>
       <p>
@@ -33,7 +34,7 @@
         and why you too should learn it.
       </p>
       <h3>What is HTML?</h3>
-      <img src="laura-jones.jpg" alt="laura jones" width="50" height="50" />
+      <img src="img/laura-jones.jpg" alt="laura jones" width="50" height="50" />
       <p>
         HTML stands for <strong>H</strong>yperText <strong>M</strong>arkup
         <strong>L</strong>anguage. It's a markup language that web developers
@@ -77,6 +78,25 @@
 
       <p>Hopefully you learned something new here. See you next time!</p>
     </article>
-    <footer>Copyright &copy; 2022 code magazine</footer>
+    <aside>
+      <ul class="related">
+        <li>
+          <img src="img/related-1.jpg" width="75" />
+          <a href="#">How to learn web dev</a>
+          <p class="related-author">by jonas schmedtman</p>
+        </li>
+        <li>
+          <img src="img/related-2.jpg" width="75" />
+          <a href="#">The unkown power of css</a>
+          <p class="related-author">by jonas schmedtman</p>
+        </li>
+        <li>
+          <img src="img/related-3.jpg" width="75" />
+          <a href="#">why javascript is awosome</a>
+          <p class="related-author">by jonas schmedtman</p>
+        </li>
+      </ul>
+    </aside>
+    <footer id="copyright">Copyright &copy; 2022 code magazine</footer>
   </body>
 </html>
