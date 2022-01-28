@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  color: #444;
 }
 h1 {
   font-size: 26px;
@@ -17,6 +18,12 @@ h3 {
 h4 {
   font-size: 20px;
 }
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
 #copyright {
   font-size: 16px;
 }
@@ -30,3 +37,34 @@ p {
 .related {
   list-style: none;
 }
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+a:link {
+  text-decoration: none;
+  color: #1098ad;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline orangered;
+  font-weight: bold;
+}
+
+a:active {
+  background-color: #444;
+}
+
+/*lvha*/
