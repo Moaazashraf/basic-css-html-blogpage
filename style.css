@@ -3,6 +3,7 @@
   color: #444;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 h1 {
   font-size: 26px;
@@ -52,7 +53,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -65,6 +66,7 @@ article {
 }
 .related {
   list-style: none;
+  margin: 0;
 }
 
 .main-header {
@@ -81,8 +83,8 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
+  box-sizing: border-box;
 }
 
 a:link {
@@ -137,4 +139,43 @@ button {
   bottom: 50px;
   right: 50px;
 }
+
+aside p {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
 /*lvha*/
+
+.author-image {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
+}
